@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F2CE5A7F-CE5A-4083-8E6D-D18636B9ECA0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>063BE4700496328507B1AC2604882778DB5A4D63</key>
+		<string>https://github.com/Dispatch-App/Dispatch-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Dispatch-iOS/Dispatch-iOS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>063BE4700496328507B1AC2604882778DB5A4D63</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Dispatch-App/Dispatch-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>063BE4700496328507B1AC2604882778DB5A4D63</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>063BE4700496328507B1AC2604882778DB5A4D63</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dispatch-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
