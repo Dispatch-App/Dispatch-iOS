@@ -1,0 +1,47 @@
+//
+//  BaseViewController.m
+//  
+//
+//  Created by Rahul Sundararaman on 8/8/15.
+//
+//
+
+#import "BaseViewController.h"
+
+@interface BaseViewController ()
+
+@end
+
+@implementation BaseViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSInteger launch = [[NSUserDefaults standardUserDefaults] integerForKey:@"launch"];
+    if(launch){
+        [self performSegueWithIdentifier:@"tutorialsegue" sender:self];
+        NSLog(@"first");
+        [[NSUserDefaults standardUserDefaults] setInteger:9001 forKey:@"launch"];
+    }
+    else{
+        NSLog(@"default");
+        [self performSegueWithIdentifier:@"tutorialsegue" sender:self];
+    }
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
